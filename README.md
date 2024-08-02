@@ -9,6 +9,7 @@ I was on a mission to build a remote for my house, after a bunch of research I f
 
 I'm already using [Home Assistant](https://www.home-assistant.io/) and some other stuff, but I couldn't figure out how to connect the remote. So here we are 🤷‍♂️.
 
+
 Installation:
 -------------
   
@@ -16,8 +17,8 @@ Installation:
 pip install xp-pen
 ```
 
-Usage:
------
+Basic Usage:
+------------
 
 ```
 import asyncio
@@ -35,6 +36,8 @@ if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     loop.run_until_complete(client.start())
 ```
+
+Home Assistant API
 
 License:
 --------
