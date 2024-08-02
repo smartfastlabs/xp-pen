@@ -24,7 +24,7 @@ Usage:
 
 See [examples](https://github.com/smartfastlabs/xp-pen/tree/main/examples).
 
-There are 5 *methods* and event can have:
+There are 5 *methods* an event can have:
 
 - down
 - up
@@ -32,7 +32,7 @@ There are 5 *methods* and event can have:
 - double-down (Click within .5 seconds of the previous)
 - long-down (Down for more than 1 second)
 
-Every event has a value, this corresponds to the button pressed.  See key map below:
+Every event has a value, this corresponds to the button pressed, keymap:
 
 <img width="1718" alt="image" src="https://github.com/user-attachments/assets/c1cb42a7-918b-4efb-ba70-b09ce3c78fda">
 
