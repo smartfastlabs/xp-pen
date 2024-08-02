@@ -44,19 +44,15 @@ async def on_event(event: Event):
         if event.value == "0":
             print(await set_brightness("light.living_area_lights", 0))
 
-    if event.method == "double-down":
+    elif event.method == "double-down":
         if event.value == "0":
             await set_brightness("light.living_area_lights", 255)
 
-    if event.method == "long-down":
+    elif event.method == "long-down":
         if event.value == "0":
             await set_brightness("light.living_area_lights", 45)
 
-    if event.method == "up":
-        if event.value == "0":
-            await set_brightness("light.living_area_lights", 155)
-
-    if event.method == "scroll":
+    elif event.method == "scroll":
         if event.value == "clockwise":
             await set_brightness("light.living_area_lights", 155)
 
