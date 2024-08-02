@@ -3,7 +3,7 @@
 
 Summary:
 --------
-I was on a mission to build a remote for my house, after a bunch of research I found the [XP Pen ACK05 Wireless Shortcut Remote](https://www.amazon.com/ACK05-Wireless-Bluetooth-Programmable-Customized/dp/B0BVW3S1QR).  It is  wireless, usb, decent range, awesome battery life, scroll wheel, small; all around awesome!
+I was on a mission to build a remote for my house (lights, blinds, dog door, etc.), after a bunch of research I found the [XP Pen ACK05 Wireless Shortcut Remote](https://www.amazon.com/ACK05-Wireless-Bluetooth-Programmable-Customized/dp/B0BVW3S1QR).  It is  wireless, usb, decent range, awesome battery life, scroll wheel, small; all around awesome!
 
 <img width="1718" alt="image" src="https://github.com/user-attachments/assets/c1cb42a7-918b-4efb-ba70-b09ce3c78fda">
 
