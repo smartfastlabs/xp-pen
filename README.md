@@ -30,6 +30,5 @@ if __name__ == "__main__":
 ```
 
 License:
-________
-
+--------
 See LICENSE
