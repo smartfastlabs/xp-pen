@@ -17,27 +17,25 @@ Installation:
 pip install xp-pen
 ```
 
-Basic Usage:
-------------
+Usage:
+--------------
 
-```
-import asyncio
+**YOU MUST USE THE USB "DONGLE", BLUETOOTH DOES NOT WORK**
 
-from xp_pen import Event, XPPenClient
+See [examples](https://github.com/smartfastlabs/xp-pen/tree/main/examples).
 
+There are 5 *methods* and event can have:
 
-async def on_event(event: Event):
-    print(f"[XP Pen] EVENT: {event.method}:{event.value}")
+- down
+- up
+- scroll
+- double-down (Click within .5 seconds of the previous)
+- long-down (Down for more than 1 second)
 
+Every event has a value, this corresponds to the button pressed.  See key map below:
 
-if __name__ == "__main__":
-    client = XPPenClient(on_event)
+<img width="1718" alt="image" src="https://github.com/user-attachments/assets/c1cb42a7-918b-4efb-ba70-b09ce3c78fda">
 
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(client.start())
-```
-
-Home Assistant API
 
 License:
 --------
